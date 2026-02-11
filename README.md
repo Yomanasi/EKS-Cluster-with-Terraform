@@ -62,11 +62,11 @@ In Variables (variable.tf)
 variable "subnet_ids" {
   description = "List of subnet IDs for the EKS cluster"
   type        = list(string)
-  default     = ["subnet-0687697a8fd1c87f2", "subnet-06f99d3ee00e36ea0"]
+  default     = ["subnet-123456789986765", "subnet-12345678998765"] #Add subnets attached to the VPC below
 }
 
 variable "vpc_id" {
-  default = "vpc-0c0aea63070dbd284"
+  default = "vpc-123456789009876" #Add your own VPC
 }
 ```
 
